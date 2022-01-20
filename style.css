@@ -1,0 +1,391 @@
+html
+{
+	text-align: center;
+	background-color: #ffffff;
+}
+.logout{
+    position: absolute;
+    text-align: right;
+    /* background-color: #13b4e6; */
+    color: darkred;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+    width: 300px;
+}
+.chatroomLabel{
+    position: relative;
+    text-align: left;
+    /* width: 300px; */
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    flex: 1 1 auto;
+    align-self: flex-end;
+    /* margin-right: auto; 
+    margin-left: auto; */
+    /* background-color: #dadada; */  
+}
+.top
+{
+    position: absolute;
+    top: 0;
+}
+.icon
+{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(36, 121, 177);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 60px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    /* border-bottom-right-radius: 30px; */
+}
+.circle
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color:rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* border-bottom-right-radius: 30px; */
+}
+.redspot{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(255, 0, 0);
+    right: 0;
+    line-height: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-size: 30;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.logoutBtn
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(36, 121, 177, 0);
+    color: rgb(0, 0, 0);
+    border-color: rgb(36, 121, 177);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    text-align: center;
+    font-size: 30;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+footer
+{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: right;
+    /* background-color: #d4d65f; */
+}
+.greeting
+{
+    position: absolute;
+    /* background-color: #7c7085; */
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    text-align: center;
+    /* border-style: solid;
+    border-width: 2px; */
+    /* overflow: auto; */
+}
+.loginArea
+{
+    width: 200px;
+    height: 300px;
+    position: relative;
+    /* background-color: #7c7085; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(36, 121, 177);
+}
+.loginCredit
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline-block;
+}
+.chatbox
+{
+    /* border-style: groove; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 400px;
+    width: 300px;
+    overflow: auto;
+    background-color: #e7e7e7;
+    text-align: center;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.incomingMsg
+{
+    position: relative;
+    text-align: left; 
+    /* border-style: solid;
+    border-width: 1px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: 10px;
+    max-width: 200px;
+    min-height: 34px;
+    height: auto;
+    display: inline-block;
+    background-color: #e0f5ff;
+}
+.outgoingMsg
+{
+    position: relative;
+    text-align: left; 
+    /* Border */
+    /* border-style: solid;
+    border-width: 1px; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* Margin */
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: auto;
+    /* height and width */
+    max-width: 200px;
+    min-height: 34px;
+    height: auto;
+
+    display: inline-block;
+    background-color: #ebffd4;
+
+}
+.senderName
+{
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    overflow: hidden;
+    color:rgb(36, 121, 177);
+    font-weight: bold;
+    /* background-color: #df0f0f; */
+}
+.msg
+{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    overflow: hidden;
+}
+.msg_time
+{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-right: 5px;
+    text-align: right;
+    font-size: 12px;
+    overflow: hidden;
+     /* background-color: #df0f0f; */
+}
+.bottom
+{
+    position: absolute;                 
+    bottom: 10px;                  
+    left: auto;  
+    /* background-color: #df0f0f; */
+    /* display: flex; */
+    width: 200px;
+    text-align: center;
+}
+.Row
+{
+    display: flex;
+    /* background-color: #df0f0f; */
+}
+.Container
+{
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    display: flex;
+}
+.txtFieldCon
+{
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 50px;
+    display: flex;
+    /* border-style: solid;
+    border-width: 1px; */
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.txtField
+{
+    position: relative;
+    /* background-color: #b11111; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    flex: 1 1 auto;
+}
+.btn
+{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+.phone
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 450px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+    /* overflow: auto; */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.btnClicked
+{
+    background-color:rgb(36, 121, 177);
+    color: azure;
+}
+#A, #B
+{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: 20px;
+}
+.registerBtn
+{
+    position: relative;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.loginBtn
+{
+    position: relative;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Column
+{
+    text-align: center;
+    /* background-color:crimson; */
+    width: 200px;
+}
+.chatRoomEntry
+{
+    /* background-color:rgb(36, 121, 177); */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blueTxt
+{
+    color: rgb(36, 121, 177);
+    font-weight: bold;
+}
+.blackTxt
+{
+    color: rgb(0, 0, 0);
+}
+.redTxt
+{
+    color: crimson;
+    font-weight: bold;
+    font-size: 15px;
+}
+.highlight
+{
+    background-color: rgb(198, 255, 249);
+}
+
